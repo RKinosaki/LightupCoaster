@@ -386,29 +386,28 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "CR2032:CR2032"
+		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -1.27 3.175 0)
+			(property "Reference" "J"
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Value" "CR2032"
-				(at -1.27 -5.08 0)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Footprint" ""
@@ -420,7 +419,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -429,7 +428,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -438,91 +437,39 @@
 					(hide yes)
 				)
 			)
-			(property "MF" "FDK America,"
+			(property "ki_keywords" "connector"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Description_1" "Button cell battery [Panasonic Automotive & Industrial Systems] CR2032 Button cell battery"
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Package" "FDK"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
 					)
-					(justify bottom)
-					(hide yes)
+					(fill
+						(type background)
+					)
 				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/CR2032/FDK/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "CR2032"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/CR2032/FDK/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "CR2032_0_0"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -0.635 0)
-					)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -531,58 +478,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -0.635 0.635) (xy -0.635 0)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 0) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 2.54) (xy 0.635 -2.54)
-					)
-					(stroke
-						(width 0.4064)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 2.54) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -2.54) (xy 2.54 -2.54)
-					)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -593,54 +491,36 @@
 				)
 				(pin passive line
 					(at -5.08 0 0)
-					(length 2.54)
-					(name "~"
+					(length 3.81)
+					(name "Pin_1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "-"
+					(number "1"
 						(effects
 							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "+$1"
-						(effects
-							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "~"
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "+$2"
+					(number "2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -2616,8 +2496,8 @@
 		)
 	)
 	(rectangle
-		(start 21.59 17.78)
-		(end 62.865 41.275)
+		(start 21.59 16.51)
+		(end 66.04 36.195)
 		(stroke
 			(width 0)
 			(type default)
@@ -2641,7 +2521,7 @@
 	)
 	(text "Power Source"
 		(exclude_from_sim no)
-		(at 28.194 16.51 0)
+		(at 28.194 15.748 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2658,12 +2538,6 @@
 			)
 		)
 		(uuid "caf42098-05e8-4ad0-909f-8b9b1600581e")
-	)
-	(junction
-		(at 41.91 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "02e58741-1ffc-47c8-8f66-7bfc3423f684")
 	)
 	(junction
 		(at 182.88 119.38)
@@ -2702,16 +2576,16 @@
 		(uuid "2feb9b0d-d2d4-4918-8dde-60973b05e94a")
 	)
 	(junction
-		(at 41.91 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3073b2ac-7592-4a9b-a6b8-f5eb496d8f33")
-	)
-	(junction
 		(at 247.65 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5579c70e-a8fa-4893-9471-1210a74e00ce")
+	)
+	(junction
+		(at 31.75 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67e76210-3f27-450b-ae20-251785c41a8c")
 	)
 	(junction
 		(at 147.32 88.9)
@@ -2780,7 +2654,7 @@
 		(uuid "968ad0d0-90fb-4f5e-a213-62befab56700")
 	)
 	(no_connect
-		(at 52.07 29.21)
+		(at 57.15 24.13)
 		(uuid "b5e4aef7-5973-49fd-b7f9-5a631a3f02cf")
 	)
 	(no_connect
@@ -2790,6 +2664,16 @@
 	(no_connect
 		(at 208.28 111.76)
 		(uuid "eb00ca4e-e2db-4b8a-b4e8-32b50a9a0424")
+	)
+	(wire
+		(pts
+			(xy 31.75 25.4) (xy 31.75 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "060d2838-5007-46a9-9336-1cfe808d4945")
 	)
 	(wire
 		(pts
@@ -2903,6 +2787,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 26.67) (xy 46.99 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3beb0c7d-148c-4bff-9894-4a4e58d11108")
+	)
+	(wire
+		(pts
 			(xy 62.23 81.28) (xy 59.69 81.28)
 		)
 		(stroke
@@ -2910,6 +2804,16 @@
 			(type default)
 		)
 		(uuid "3d87020f-a630-4881-b2db-656fe60d8aed")
+	)
+	(wire
+		(pts
+			(xy 31.75 26.67) (xy 31.75 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44eddf1b-4b8b-4ee2-ae4e-aad1ae5d9a35")
 	)
 	(wire
 		(pts
@@ -3050,16 +2954,6 @@
 			(type default)
 		)
 		(uuid "6f085519-6f73-4771-9ee0-545bb30ad418")
-	)
-	(wire
-		(pts
-			(xy 41.91 24.13) (xy 41.91 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6fd25e83-ac14-4947-b5d3-ebfa9d8d5162")
 	)
 	(wire
 		(pts
@@ -3343,7 +3237,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 29.21) (xy 31.75 29.21)
+			(xy 29.21 31.75) (xy 31.75 31.75)
 		)
 		(stroke
 			(width 0)
@@ -3370,16 +3264,6 @@
 			(type default)
 		)
 		(uuid "eb79f16a-5e3b-4689-b016-b5fefe659209")
-	)
-	(wire
-		(pts
-			(xy 41.91 26.67) (xy 41.91 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2b9179c-46d7-4fb0-94dd-0fe701cb5bfe")
 	)
 	(wire
 		(pts
@@ -3945,7 +3829,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 52.07 34.29 270)
+		(at 57.15 29.21 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3954,7 +3838,7 @@
 		(fields_autoplaced yes)
 		(uuid "31232764-116e-4b95-9232-60a6a37a7ea1")
 		(property "Reference" "#PWR0104"
-			(at 48.26 34.29 0)
+			(at 53.34 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3963,7 +3847,7 @@
 			)
 		)
 		(property "Value" "+3V"
-			(at 55.88 34.2899 90)
+			(at 60.96 29.2099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3972,7 +3856,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 34.29 0)
+			(at 57.15 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3981,7 +3865,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 34.29 0)
+			(at 57.15 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3990,7 +3874,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 52.07 34.29 0)
+			(at 57.15 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4282,7 +4166,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPDT")
-		(at 46.99 31.75 0)
+		(at 52.07 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4291,7 +4175,7 @@
 		(fields_autoplaced yes)
 		(uuid "5b993950-2e8c-45d0-b54c-210e34990256")
 		(property "Reference" "SW102"
-			(at 46.99 22.86 0)
+			(at 52.07 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4299,7 +4183,7 @@
 			)
 		)
 		(property "Value" "SW_SPDT"
-			(at 46.99 25.4 0)
+			(at 52.07 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4307,7 +4191,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 46.99 31.75 0)
+			(at 52.07 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4316,7 +4200,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 46.99 39.37 0)
+			(at 52.07 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4325,7 +4209,7 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
-			(at 46.99 31.75 0)
+			(at 52.07 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4353,7 +4237,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 29.21 29.21 270)
+		(at 29.21 31.75 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4362,7 +4246,7 @@
 		(fields_autoplaced yes)
 		(uuid "6eb283a6-89d4-4444-8fac-38dc72b7004f")
 		(property "Reference" "#PWR0110"
-			(at 22.86 29.21 0)
+			(at 22.86 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4371,7 +4255,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 25.4 29.2099 90)
+			(at 25.4 31.7499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4380,7 +4264,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 29.21 0)
+			(at 29.21 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4389,7 +4273,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 29.21 0)
+			(at 29.21 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4398,7 +4282,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 29.21 29.21 0)
+			(at 29.21 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4481,6 +4365,76 @@
 			(project "LightUpCoaster"
 				(path "/5f29ceaa-8b3c-4095-9656-bc54e48f9ff9"
 					(reference "D118")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 36.83 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a7abc40-45c4-4b4c-a7cc-dc5d3d98659f")
+		(property "Reference" "J101"
+			(at 39.37 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 39.37 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 36.83 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 36.83 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c83ea83-08ce-4580-b2ee-33bf2c69fd53")
+		)
+		(pin "2"
+			(uuid "5b9f5ad8-4273-4431-ba9e-dcbc8ba1d1a7")
+		)
+		(instances
+			(project ""
+				(path "/5f29ceaa-8b3c-4095-9656-bc54e48f9ff9"
+					(reference "J101")
 					(unit 1)
 				)
 			)
@@ -5370,157 +5324,6 @@
 		)
 	)
 	(symbol
-		(lib_id "CR2032:CR2032")
-		(at 36.83 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bd8e49bd-d407-451e-bdc3-2853af19a736")
-		(property "Reference" "U103"
-			(at 36.83 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CR2032"
-			(at 36.83 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Battery_Holder:CR2032-SMD"
-			(at 36.83 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 36.83 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 36.83 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "FDK America,"
-			(at 36.83 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Button cell battery [Panasonic Automotive & Industrial Systems] CR2032 Button cell battery"
-			(at 36.83 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "FDK"
-			(at 36.83 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 36.83 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CR2032/FDK/view-part/?ref=snap"
-			(at 36.83 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "CR2032"
-			(at 36.83 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 36.83 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/CR2032/FDK/view-part/?ref=eda"
-			(at 36.83 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "+$2"
-			(uuid "d8a107f5-6951-492a-9062-0e0e16414096")
-		)
-		(pin "-"
-			(uuid "05c7e26e-6330-4fa3-8aa6-a79eea7c987f")
-		)
-		(pin "+$1"
-			(uuid "43abccfe-dd0c-400d-946a-4ac5018b9e6b")
-		)
-		(instances
-			(project ""
-				(path "/5f29ceaa-8b3c-4095-9656-bc54e48f9ff9"
-					(reference "U103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Timer:NE555D")
 		(at 127 88.9 0)
 		(unit 1)
@@ -6285,7 +6088,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 41.91 24.13 0)
+		(at 31.75 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6294,7 +6097,7 @@
 		(fields_autoplaced yes)
 		(uuid "fed231d8-ac25-459a-88c8-0244d2744ab1")
 		(property "Reference" "#PWR0111"
-			(at 41.91 27.94 0)
+			(at 31.75 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6303,7 +6106,7 @@
 			)
 		)
 		(property "Value" "+VBatt"
-			(at 41.91 19.05 0)
+			(at 31.75 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6311,7 +6114,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 24.13 0)
+			(at 31.75 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6320,7 +6123,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 24.13 0)
+			(at 31.75 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6329,7 +6132,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 41.91 24.13 0)
+			(at 31.75 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6377,7 +6180,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG"
 			(at 30.48 71.12 0)
 			(effects
 				(font
